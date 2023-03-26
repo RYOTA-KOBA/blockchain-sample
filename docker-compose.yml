@@ -1,0 +1,8 @@
+version: '3'
+services:
+  python3:
+    build: .
+    tty: true
+    working_dir: /var/simple-brockchain
+    volumes:
+      - ./:/var/simple-brockchain/
